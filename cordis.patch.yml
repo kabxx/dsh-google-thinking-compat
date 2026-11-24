@@ -1,0 +1,3 @@
+- insert:
+    - id: google-thinking-compat
+      name: '@kabxx/dsh-google-thinking-compat'

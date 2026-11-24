@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-google-thinking-compat",
+    "description": "为 Google Gemini 与 Vertex API 路由扩展 xhigh 和 max 推理档位，并在「设置 → 模型」中放行对应档位配置。"
+  }
+}

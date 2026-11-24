@@ -1,0 +1,39 @@
+{
+  "name": "@kabxx/dsh-google-thinking-compat",
+  "version": "0.1.0",
+  "description": "Enable xhigh and max thinking levels for Google Gemini and Vertex API routes in DeepSeek Harness.",
+  "license": "MIT",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabxx/dsh-google-thinking-compat.git"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "src/",
+    "cordis.patch.yml",
+    "locale/",
+    "icon.svg"
+  ],
+  "scripts": {
+    "check": "node --check src/index.js && node --check src/pi-ai-thinking.js && node --check src/settings-ui.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24.9.0",
+    "dsh": "0.2.2-rc.5"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

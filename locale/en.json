@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-google-thinking-compat",
+    "description": "Add xhigh and max thinking levels for Google Gemini and Vertex API routes, with matching Settings → Models support."
+  }
+}
